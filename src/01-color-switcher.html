@@ -5,12 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Color switcher</title>
     <link rel="stylesheet" href="css/common.css" />
+    <style>
+      button {
+        width: 200px;
+        height: 75px;
+        border-radius: 15px;
+        margin-right: 20px;
+        font-size: large;
+        font-weight: 600;
+      }
+    </style>
   </head>
   <body>
     <p><a href="index.html">Go back</a></p>
 
     <button type="button" data-start>Start</button>
-    <button type="button" data-stop>Stop</button>
+    <button type="button" data-stop disabled>Stop</button>
 
     <script src="js/01-color-switcher.js" type="module"></script>
   </body>
